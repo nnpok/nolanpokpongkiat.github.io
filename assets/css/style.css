@@ -29,7 +29,7 @@ body {
 	left: 50%;*/
 	text-align: center;
 	width: 100%;
-	border: solid blue 1px;
+	/*border: solid blue 1px;*/
 }
 
 .a {
@@ -77,26 +77,26 @@ body {
 .botleft{
 	position: absolute;
 	right: 100px;
-	top: 451px;
+	top: 452px;
 	z-index: 11;
 }
 
 .topleft{
 	position: absolute;
-	top: 145px;
-	right: 218px;
+	top: 146px;
+	right: 216px;
 }
 
 .botright{
 	position: absolute;
-	left: 101px;
-	top: 449px;
+	left: 100px;
+	top: 452px;
 }
 
 .topright{
 	position: absolute;
-	top: 143px;
-	left: 217px;
+	top: 146px;
+	left: 216px;
 }
 
 .toptext {
@@ -118,13 +118,13 @@ body {
 
 #leftside{
 	width: 50%;
-	border: solid red 1px;
+	/*border: solid red 1px;*/
 	position: relative;
 }
 
 #rightside{
 	width: 50%;
-	border: solid blue 1px;
+	/*border: solid blue 1px;*/
 	right: 0;
 	position: absolute;
 
