@@ -13,7 +13,6 @@ body {
 
 #icon {
 	position: absolute;
-	left: 45px;
 	top: -200px;
 	transform:translateX(-50%);
 	left: 50%;
@@ -23,12 +22,12 @@ body {
 #name {
 	position: absolute;
 	font-family: 'Lancelot';
-	font-size: 20px;
-	top: 680px;
+	font-size: 120px;
+	top: 620px;
 	z-index: 10;
-	transform: translateX(-50%);
-	left: 650px;
-	transform: scale(5);
+	transform:translateX(-50%);
+	left: 50%;
+
 	/*border: solid blue 1px;*/
 }
 
@@ -49,7 +48,9 @@ body {
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 /*.button:hover {
-	opacity: 0.5;
+	-webkit-animation:spin 3s linear infinite;
+	-moz-animation:spin 3s linear infinite;
+	animation:spin 3s linear infinite;
 }*/
 
 .textbut:hover{
@@ -74,15 +75,27 @@ body {
 
 .botleft{
 	position: absolute;
-	left: 34.05%;
-	top: 452px;
+	right: 100px;
+	top: 451px;
 	z-index: 11;
+}
+
+.topleft{
+	position: absolute;
+	top: 145px;
+	right: 218px;
 }
 
 .botright{
 	position: absolute;
-	right: 34.1%;
-	top: 452px;
+	left: 101px;
+	top: 449px;
+}
+
+.topright{
+	position: absolute;
+	top: 143px;
+	left: 217px;
 }
 
 .toptext {
@@ -98,14 +111,20 @@ body {
 	/*border: solid red 1px;*/
 }
 
-.topleft{
-	position: absolute;
-	top: 146px;
-	left: 26.3%;
+
+
+
+
+#leftside{
+	width: 50%;
+	border: solid red 1px;
+	position: relative;
 }
 
-.topright{
+#rightside{
+	width: 50%;
+	border: solid blue 1px;
+	right: 0;
 	position: absolute;
-	top: 146px;
-	right: 26.4%;
+
 }
