@@ -6,7 +6,7 @@ body {
 	width: 99.5%;
 	height: 240%;
 	position: relative;
-	border: solid green 2px;
+	/*border: solid green 2px;*/
 }
 
 #topbar {
@@ -106,7 +106,7 @@ body {
 	margin: auto;
 	top: 55px;
 	height: 1225px;
-	border: solid yellow 2px;
+	/*border: solid yellow 2px;*/
 
 }
 
@@ -143,9 +143,6 @@ body {
 	transform: scale(.75);
 }
 
-.no {
-	border: solid blue 1px;
-}
 
 
 #carousel-prev {
@@ -215,7 +212,7 @@ body {
 	height: 230px;
 	top: 40px;
 
-	border: solid blue 2px;
+	/*border: solid blue 2px;*/
 
 }
 
@@ -319,6 +316,7 @@ iframe{
 	right:0px;
 	top:530px;
 	text-align: center;
+	overflow: hidden;
 }
 
 #directions-box{
@@ -328,7 +326,8 @@ iframe{
 	position: absolute;
 	left: 30px;
 	bottom: 30px;
-	border: solid red 2px;
+	overflow: hidden;
+	/*border: solid red 2px;*/
 }
 
 #directions-title{
@@ -356,7 +355,7 @@ iframe{
 	font-style: italic;
 }
 
-#button{
+.button{
 	border: solid #86B0B7 1px;
 	background-color: #AFE3E8;
 	color: #808080;
@@ -367,7 +366,7 @@ iframe{
 	left: 25px;
 }
 
-#button:hover{
+.button:hover{
 	cursor: pointer;
 	opacity: .6;
 }
@@ -379,11 +378,18 @@ iframe{
 	left: 10px;
 }
 
-#car{
+.car{
 	position: absolute;
 	bottom: 30px;
 	width: 130px;
 	left: 40px;
+	z-index: 20;
+	transition: 5s;
+
+}
+
+.move{
+	transform: translateX(800px);
 }
 
 #gmaps{
@@ -391,6 +397,6 @@ iframe{
 	bottom: 100px;
 	width: 100%;
 	font-size: 20px;
-
+	display: none;
 
 }

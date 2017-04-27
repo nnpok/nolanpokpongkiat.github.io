@@ -6,7 +6,7 @@ body {
 	width: 99.5%;
 	height: 290%;
 	position: relative;
-	border: solid green 2px;
+	/*border: solid green 2px;*/
 }
 
 #topbar {
@@ -106,7 +106,8 @@ body {
 	margin: auto;
 	top: 55px;
 	height: 1520px;
-	border: solid yellow 2px;
+	text-align: center;
+	/*border: solid yellow 2px;*/
 
 }
 
@@ -129,7 +130,7 @@ body {
 
 
 .carousel-item {
-	width: 998px;
+	width: 1000px;
 	position: relative;
 	height: 100%;
 	float: left;
@@ -143,9 +144,11 @@ body {
 	transform: scale(.75);
 }
 
-.no {
-	border: solid blue 1px;
+.car_img2 {
+	width: 1000px;
 }
+
+
 
 
 #carousel-prev {
@@ -215,7 +218,7 @@ body {
 	height: 230px;
 	top: 40px;
 
-	border: solid blue 2px;
+	/*border: solid blue 2px;*/
 
 }
 
@@ -307,5 +310,22 @@ iframe{
   -moz-transform: translateX(-50%) translateY(-50%);
  	transform: translateX(-50%) translateY(-50%);
 	position: absolute;
+
+}
+
+
+#caution{
+	margin-top:100px;
+	width: 100px;
+
+}
+
+#coming-soon{
+	margin-top: 40px;
+	width: 100%;
+	font-size: 40px;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: .2em;
+	color: gray;
 
 }
