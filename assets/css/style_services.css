@@ -4,7 +4,7 @@ body {
 	padding: 0;
 	font-family: 'Lato', sans-serif;
 	width: 99.5%;
-	height: 320%;
+	height: 2432px;
 	position: relative;
 	/*border: solid green 2px;*/
 }
@@ -320,6 +320,7 @@ iframe{
 	position: relative;
 	height: 100px;
 	overflow: hidden;
+	transition: 1s;
 }
 
 .bigbox-active{
